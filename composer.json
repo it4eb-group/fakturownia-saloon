@@ -1,0 +1,50 @@
+{
+    "name": "it4eb/fakturownia-saloon",
+    "description": "SaloonPHP-based client for the Fakturownia (InvoiceOcean) REST API, with typed spatie/laravel-data DTOs and KSeF support. Works with Laravel 11, 12 and 13.",
+    "keywords": ["fakturownia", "invoiceocean", "saloon", "laravel", "invoicing", "ksef", "api"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IT4EB"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "saloonphp/saloon": "^4.0",
+        "saloonphp/laravel-plugin": "^4.0",
+        "spatie/laravel-data": "^4.11",
+        "illuminate/contracts": "^11.0 || ^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0 || ^10.0 || ^11.0",
+        "pestphp/pest": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "It4eb\\Fakturownia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "It4eb\\Fakturownia\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "It4eb\\Fakturownia\\Laravel\\FakturowniaServiceProvider"
+            ],
+            "aliases": {
+                "Fakturownia": "It4eb\\Fakturownia\\Laravel\\Facades\\Fakturownia"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
