@@ -1,5 +1,5 @@
 {
-    "name": "it4eb/fakturownia-saloon",
+    "name": "it4eb-group/fakturownia-saloon",
     "description": "SaloonPHP-based client for the Fakturownia (InvoiceOcean) REST API, with typed spatie/laravel-data DTOs and KSeF support. Works with Laravel 11, 12 and 13.",
     "keywords": ["fakturownia", "invoiceocean", "saloon", "laravel", "invoicing", "ksef", "api"],
     "type": "library",

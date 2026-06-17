@@ -1,4 +1,4 @@
-# it4eb/fakturownia-saloon
+# it4eb-group/fakturownia-saloon
 
 A [SaloonPHP](https://docs.saloon.dev) client for the **Fakturownia** (InvoiceOcean)
 REST API, with typed [`spatie/laravel-data`](https://spatie.be/docs/laravel-data) DTOs,
